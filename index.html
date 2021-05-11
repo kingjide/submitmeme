@@ -21,10 +21,21 @@
 			</header>
 
 		<!-- Signup Form -->
-			<form id="signup-form" action="https://formspree.io/f/myyleypv" enctype="multipart/form-data" method="POST" >
-				<input type="email" name="email" id="email" placeholder="Email" />
-				<input type="file" name="upload" id="email" />
-				<input type="submit" value="Submit Meme" />
+			<form
+  action="https://formspree.io/f/myyleypv"
+  method="POST"
+  enctype="multipart/form-data"
+>
+  <label>
+    Your email:
+    <input type="email" name="_replyto">
+  </label>
+  <label>
+    Your file:
+    <input type="file" name="upload">
+  </label>
+  <button type="submit">Send</button>
+</form>
 			</form>
 
 		<!-- Footer -->
